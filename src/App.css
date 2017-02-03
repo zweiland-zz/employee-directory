@@ -1,0 +1,198 @@
+* {
+
+}
+
+.App {
+
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear;*/
+  height: 80px;
+}
+
+.App-header {
+  background-color: #4CBBE2;
+  background: linear-gradient(to right, #4CBBE2, #016FA8);
+  height: 150px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Added by User */
+
+.content > .table-view:first-child {
+    margin-top: -2px;
+}
+
+.hidden {
+    opacity: 0;
+    display: none;
+}
+
+.media-object.big {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.media-object.small {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.table-view-cell h1 {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 20px 0 4px 0;
+    margin: 0;
+}
+
+input[type=search] {
+    border-radius: 8px;
+}
+
+.card {
+    /*margin-top:54px;*/
+}
+.card .table-view {
+  border-top: 0;
+}
+.pull-left {
+    float: left;
+}
+
+/* Global */
+img {
+    border: 0;
+}
+a {
+    color: #4CBBE2;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Inputs */
+select, textarea, input[type="text"], input[type="search"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="tel"], input[type="color"] {
+    width: 100%;
+    height: 35px;
+    -webkit-appearance: none;
+    padding: 0 15px;
+    margin-bottom: 15px;
+    line-height: 21px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+}
+input[type=search] {
+    border-radius: 8px;
+}
+input[type="search"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+/* Search Bar */
+.bar {
+    /*position: fixed;*/
+    right: 0;
+    left: 0;
+    z-index: 10;
+    height: 44px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.bar-header-secondary {
+    top: 44px;
+}
+.bar input[type="search"] {
+    height: 29px;
+    margin: 6px 0;
+}
+.App-header .icon {
+    position: absolute;
+    z-index: 20;
+    left: 00px;
+    top: 64px;
+    padding: 20px;
+}
+.icon {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+}
+
+/* Table View */
+.content > .table-view:first-child {
+  margin-top: -2px;
+}
+.content > .table-view:first-child {
+  /*margin-top: 15px;*/
+}
+.table-view {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 15px;
+  list-style: none;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.table-view .media, .table-view .media-body {
+    overflow: hidden;
+}
+.table-view-cell {
+    position: relative;
+    padding: 11px 65px 11px 15px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+}
+.table-view-cell > a:not(.btn) {
+    position: relative;
+    display: block;
+    padding: inherit;
+    margin: -11px -65px -11px -15px;
+    overflow: hidden;
+    color: inherit;
+}
+.table-view .media-object.pull-left {
+    margin-right: 10px;
+}
+.table-view-cell p {
+    margin-bottom: 0;
+}
+
+.media-object.small {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
